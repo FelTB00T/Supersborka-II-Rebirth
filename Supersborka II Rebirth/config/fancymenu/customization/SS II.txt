@@ -1,0 +1,184 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 28
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=400322%
+  width = 200
+  action = resizebutton
+  height = 49
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/setevaya_game.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 29
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/settings.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 29
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=502382%
+  width = 201
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/leave.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-left
+  x = 5
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/mini_button.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 27
+  action = movebutton
+  y = -143
+}
+
+customization {
+  identifier = %id=400298%
+  width = 200
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/button_play.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 30
+  action = movebutton
+  y = -98
+}
+
+customization {
+  identifier = %id=400346%
+  width = 205
+  action = resizebutton
+  height = 52
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Моды
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/mods.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-left
+  x = 5
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/customguis/mini_button.png
+}
+
+customization {
+  path = config/fancymenu/customguis/logo.png
+  orientation = top-left
+  x = 9
+  width = 384
+  actionid = beb2cc64-2151-40c1-ae40-f159748195de1675005975566
+  action = addtexture
+  y = 28
+  height = 100
+}
+
